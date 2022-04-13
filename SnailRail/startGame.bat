@@ -1,1 +1,0 @@
-call java -cp "jars/*" Main
