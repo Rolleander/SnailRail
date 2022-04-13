@@ -24,8 +24,7 @@ public class Profil {
 		} else {
 			free = true;
 		}
-		// return free;
-		return true;
+		return free;
 	}
 
 	public boolean getStageFree(int stage) {
@@ -38,8 +37,7 @@ public class Profil {
 				break;
 			}
 		}
-		// return free;
-		return true;
+	    return free;
 	}
 
 	public void setScore(int level, int score) {
